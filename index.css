@@ -15,4 +15,6 @@ body{
     display: flex;
     background-color: white;
     border-radius: 7px;
+    flex-direction: column;
+    
 }    

@@ -15,3 +15,5 @@ function getStockData(){
         time: Date(`${hours} / ${minutes} / ${seconds}`)
     }
 }
+
+export {getStockData}
