@@ -1,0 +1,18 @@
+body{ 
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+#main-container {
+    width: 517px;
+    height: 244px;
+    border: 1px solid black;
+    display: flex;
+    background-color: white;
+    border-radius: 7px;
+}    
