@@ -1,23 +1,29 @@
-import getStockData from "./StockAPI"
+import getStockData from "./StockAPI.js"
 
 setInterval(function () {
-    const stockData = getStockData
-    stockTicker(stockData)
+    const stockData = getStockData()
+    renderStrockTicker(stockData)
 }, 1500)
 
 
-function stockTicker(stockData) {
-    const documentName = document.getElementById("name")
-    const documentSymbol = document.getElementById("sym")
-    const documentPrice = document.getElementById("price")
-    // const documentPrice_icon = document.getElementById("price-icon")
-    const documentTime = document.getElementById("time")
 
-    const {name,sym,price,time} = stockData
 
-    documentName.textContent = name 
-    documentSymbol.textContent = sym
-    documentPrice.textContent = price
-    documentTime.textContent = time
+function renderStrockTicker(stockData) {
+
+    const stockDisplayName = document.getElementById("name")
+    const stockDisplaySymbol = document.getElementById("symbol")
+    const stockDisplayPrice = document.getElementById("price")
+    // const stockDisplayPriceIcon = document.getAnimations("price-icon")
+    const stockDisplayTime = document.getElementById("price-icon")
+
+    const { name, sym, price, time } = stockData
+
+    stockDisplayName.textContent = name
+    stockDisplaySymbol.textContent = sym
+    stockDisplayPrice.textContent = price
+    // stockDisplayPriceIcon =
+    stockDisplayTime.textContent = time
+    
 
 }
+
