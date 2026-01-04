@@ -1,7 +1,4 @@
 
-
-
-
 function getStockData(){
     return {
         name: 'QtechAI',
