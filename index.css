@@ -9,12 +9,14 @@ body{
 
 
 #main-container {
-    width: 517px;
+    width: 392px;
     height: 244px;
     border: 1px solid black;
     display: flex;
     background-color: white;
     border-radius: 7px;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     
 }    
