@@ -20,6 +20,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     font-style: italic;
+    text-shadow: 0px 1px 1px black;
     font-size: 25px;
     color: black;
     
